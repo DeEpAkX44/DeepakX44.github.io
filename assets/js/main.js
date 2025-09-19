@@ -54,7 +54,7 @@
   })
 
   /**
-   * Scrool with ofset on links with a class name .scrollto
+   * Scrool with offset on links with a class name .scrollto
    */
   on('click', '#navbar .nav-link', function(e) {
     let section = select(this.hash)
@@ -230,7 +230,7 @@
   /**
    * Portfolio details slider
    */
-  new Swiper('.portfolio-details-slider', {
+  var swiper = new Swiper('.portfolio-details-slider', {
     speed: 400,
     loop: true,
     autoplay: {
@@ -242,6 +242,24 @@
       type: 'bullets',
       clickable: true
     }
+  });
+
+  // ✅ Pause autoplay & video when video slide is active
+  swiper.on('slideChange', function () {
+    var currentSlide = swiper.slides[swiper.activeIndex];
+    if (currentSlide.querySelector('iframe')) {
+      swiper.autoplay.stop(); // stop auto scroll
+    } else {
+      swiper.autoplay.start(); // resume for images
+    }
+
+    // Pause YouTube video when leaving slide
+    swiper.slides.forEach((slide) => {
+      let iframe = slide.querySelector('iframe');
+      if (iframe) {
+        iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+      }
+    });
   });
 
 })()
