@@ -53,32 +53,42 @@
 				    })
 		        </script>
 
-  <!-- ======= Header ======= -->
+ <!-- ======= Header ======= --> 
   <header id="header">
-    <div class="container">
+  <div class="container">
+    <h1>
+      <a href="index.html" class="home-logo">DEEPAK KARI</a>
+    </h1>
 
-      <h1><a href="index.html">DEEPAK KARI</a></h1>
-		<h2>Game Developer <span> | </span>Gameplay Programmer <span> | </span> Engine Developer<span></h2>
+    <h2>Unity Game Developer <span> <!-- if you want pink highlight text, put something inside span -->
+      <!-- Example: <span>Game Engineer</span> -->
+    </h2>
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link active" href="#header">Home</a></li>
-          <li><a class="nav-link" href="#about">About</a></li>
-          <li><a class="nav-link" href="#resume">Resume</a></li>
-          <li><a class="nav-link" href="#portfolio">Projects</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li><a class="nav-link active" href="#header">Home</a></li>
+        <li><a class="nav-link" href="#portfolio">Projects</a></li>
+        <li><a class="nav-link" href="#resume">Resume</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav>
+  </div>
+</header><!-- End Header -->
 
   <!-- ======= About Section ======= -->
   <section id="about" class="about">
 
     <!-- ======= About Me ======= -->
     <div class="about-me container">
-
+      
+      <!-- Home Button -->
+<div class="home-btn-wrap">
+  <a href="index.html" class="home-btn">
+    <i class="ri-close-line"></i>
+  </a>
+</div>
+    
       <div class="section-title">
         <p>ABOUT</p>
         <h2>General</h2>
@@ -122,97 +132,171 @@
 
 <!-- ======= Interests Section ======= -->
 <div class="interests container">
-
   <div class="section-title">
     <h2>Interests</h2>
   </div>
 
   <div class="row">
     <!-- Game Programming -->
-    <div class="col-lg-3 col-md-4">
-      <div class="icon-box">
-        <i class="ri-gamepad-line" style="color: #ff007f;"></i>
-        <h3>Game Programming</h3>
-      </div>
-    </div>
+   <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+  <div class="interest-card">
+    <i class="ri-gamepad-line"></i>
+    <h3>Game Programming</h3>
+  </div>
+</div>
 
     <!-- Engine Development -->
     <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-      <div class="icon-box">
-        <i class="ri-cpu-line" style="color: #ff007f;"></i>
+       <div class="interest-card">
+        <i class="ri-cpu-line"></i>
         <h3>Engine Development</h3>
       </div>
     </div>
 
     <!-- AI -->
     <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-      <div class="icon-box">
-        <i class="ri-brain-line" style="color: #ff007f;"></i>
+      <div class="interest-card">
+        <i class="ri-brain-line"></i>
         <h3>AI</h3>
       </div>
     </div>
 
     <!-- AR/VR -->
     <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-      <div class="icon-box">
-        <i class="ri-ram-2-fill" style="color: #ff007f;"></i>
+     <div class="interest-card">
+        <i class="ri-ram-2-fill"></i>
         <h3>AR/VR</h3>
       </div>
     </div>
 
     <!-- Computer Graphics -->
     <div class="col-lg-3 col-md-4 mt-4">
-      <div class="icon-box">
-        <i class="ri-gradienter-line" style="color: #ff007f;"></i>
+     <div class="interest-card">
+        <i class="ri-gradienter-line"></i>
         <h3>Computer Graphics</h3>
       </div>
     </div>
 
     <!-- Game Design -->
     <div class="col-lg-3 col-md-4 mt-4">
-      <div class="icon-box">
-        <i class="ri-pencil-ruler-2-line" style="color: #ff007f;"></i>
+      <div class="interest-card">
+        <i class="ri-pencil-ruler-2-line"></i>
         <h3>Game Design</h3>
       </div>
     </div>
 
     <!-- Music -->
     <div class="col-lg-3 col-md-4 mt-4">
-      <div class="icon-box">
-        <i class="ri-music-2-line" style="color: #ff007f;"></i>
+      <div class="interest-card">
+        <i class="ri-music-2-line"></i>
         <h3>Music</h3>
       </div>
     </div>
 
     <!-- Web Development -->
     <div class="col-lg-3 col-md-4 mt-4">
-      <div class="icon-box">
-        <i class="ri-code-s-slash-line" style="color: #ff007f;"></i>
+      <div class="interest-card">
+        <i class="ri-code-s-slash-line"></i>
         <h3>Web Development</h3>
       </div>
     </div>
   </div>
 
+  <!-- ======= Contact Section ======= -->
+<div class="contact-box container">
+
+  <div class="section-title">
+    <h2>Connect With Me</h2>
+  </div>
+
+  <div class="row justify-content-center">
+
+    <!-- GitHub -->
+    <div class="col-lg-3 col-md-4 col-6 mt-4">
+      <a href="https://github.com/DeEpAkX44" target="_blank" class="contact-card">
+        <i class="ri-github-fill"></i>
+        <span>GitHub</span>
+      </a>
+    </div>
+
+    <!-- LinkedIn -->
+    <div class="col-lg-3 col-md-4 col-6 mt-4">
+      <a href="https://www.linkedin.com/in/deepak-kari" target="_blank" class="contact-card">
+        <i class="ri-linkedin-box-fill"></i>
+        <span>LinkedIn</span>
+      </a>
+    </div>
+
+    <!-- Email -->
+    <div class="col-lg-3 col-md-4 col-6 mt-4">
+      <a href="mailto:deepak.kari44@gmail.com" class="contact-card">
+        <i class="ri-mail-fill"></i>
+        <span>Email</span>
+      </a>
+    </div>
+
+  </div>
+
+</div>
+<!-- End Contact Section -->
+
 </div><!-- End Interests Section -->
+
+    </section><!-- End About Section -->
 
 
     
-
-  </section><!-- End About Section -->
-
-<!-- ======= Resume Section ======= -->
+  <!-- ======= Resume Section ======= -->
   <section id="resume" class="resume">
     <div class="container">
-      <div class="section-title">
-        <p>
-    	Resume <a href="https://drive.google.com/uc?export=download&id=1LrxCs0apG5gOk5nGcbix_c7d8_9paEYE">(Link)</a>
-  		</p> 
-        <h2>Academics and Experience</h2>
-      </div>
 
-      <!-- ======= Skills  ======= -->
+       <!-- Home Button -->
+<div class="home-btn-wrap">
+  <a href="index.html" class="home-btn">
+    <i class="ri-close-line"></i>
+  </a>
+</div>
+
+    <!-- Title + Embedded Resume -->
+    <div class="section-title">
+      <p>
+        Resume
+      </p>
+      <h2>Academics and Experience</h2>
+    </div>
+
+  <!-- Resume Download Card -->
+<div class="resume-download-wrap">
+
+  <a href="https://drive.google.com/uc?export=download&id=1m1vPFIklM3dTLx1OcVqlIiZLKBS9wm2a"
+     class="resume-download-card"
+     target="_blank">
+    <i class="ri-download-2-fill"></i>
+    <span>Download Resume</span>
+  </a>
+</div>
+    
+   <!-- Resume Image Preview -->
+<div style="margin: 15px 0 30px 0; text-align: center;">
+
+  <a href="https://drive.google.com/file/d/1m1vPFIklM3dTLx1OcVqlIiZLKBS9wm2a/view"
+     target="_blank" rel="noopener">
+
+    <img src="assets/img/resume-preview.jpg"
+         alt="Deepak Kari Resume"
+         style="width: 100%;
+                max-width: 900px;
+                border-radius: 12px;
+                box-shadow: 0 4px 20px rgba(0,0,0,0.35);
+                transition: transform 0.3s ease;">
+  </a>
+
+</div>
+
+  
+
+    <!-- ======= Skills ======= -->
     <div class="skills container">
-
       <div class="section-title">
         <h2>Skills</h2>
       </div>
@@ -224,110 +308,130 @@
           <div class="progress">
             <span class="skill">C/C++ <i class="val">70%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar" role="progressbar"
+                   aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
 
           <div class="progress">
-            <span class="skill">C#(Unity) <i class="val">90%</i></span>
+            <span class="skill">C# (Unity) <i class="val">90%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-			 <div class="progress">
-            <span class="skill">UNITY <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-			 <div class="progress">
-            <span class="skill">UNREAL ENGINE <i class="val">60%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar" role="progressbar"
+                   aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
 
           <div class="progress">
-            <span class="skill">COMPUTER GRAPHICS <i class="val">60%</i></span>
+            <span class="skill">Unity <i class="val">80%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar" role="progressbar"
+                   aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
-			
+
+          <div class="progress">
+            <span class="skill">Unreal Engine <i class="val">60%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar"
+                   aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Computer Graphics <i class="val">60%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar"
+                   aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
         </div>
 
         <div class="col-lg-6">
 
-			 <div class="progress">
-            <span class="skill">GIT/GITHUB/PERFORCE <i class="val">80%</i></span>
+          <div class="progress">
+            <span class="skill">Git / GitHub / Perforce <i class="val">80%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar" role="progressbar"
+                   aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
 
           <div class="progress">
-            <span class="skill">SDK's Integration <i class="val">90%</i></span>
+            <span class="skill">SDK Integration <i class="val">90%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar" role="progressbar"
+                   aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
-			
-          <div class="progress">
-            <span class="skill">BLENDER <i class="val">60%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-			 <div class="progress">
-            <span class="skill">ADOBE PHOTOSHOP/ADOBE XD/FIGMA <i class="val">70%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-         
 
           <div class="progress">
-            <span class="skill"> Microsoft Office <i class="val">100%</i></span>
+            <span class="skill">Blender <i class="val">60%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar" role="progressbar"
+                   aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Adobe Photoshop / Adobe XD / Figma <i class="val">70%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar"
+                   aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Microsoft Office <i class="val">100%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar"
+                   aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
 
         </div>
 
       </div>
+    </div>
+    <!-- End Skills -->
 
-    </div><!-- End Skills -->
+    <!-- ======= Education + Experience ======= -->
+    <div class="row" style="margin-top: 40px;">
 
-<!-- ======= Resume Section ======= -->
- 		<div class="row">
-        <div class="col-lg-6">
       <!-- Education Column -->
+      <div class="col-lg-6">
         <h3 class="resume-title">Education</h3>
+
         <div class="resume-item">
           <h4>Master’s Student in Entertainment Arts & Engineering (Game Engineering)</h4>
-          <h5>2025 - Present</h5>
+          <h5 class="date-badge">2025 - Present</h5>
           <p><em>University of Utah, Salt Lake City, Utah, USA</em></p>
-          <p>Currently pursuing graduate studies focused on advanced game programming, engine development, AI, AR/VR, and computer graphics. Building technical expertise through coursework and collaborative game projects.</p>
+          <p>
+            Currently pursuing graduate studies focused on advanced game programming, engine development,
+            AI, AR/VR, and computer graphics. Building technical expertise through coursework and
+            collaborative game projects.
+          </p>
         </div>
 
         <div class="resume-item">
           <h4>Bachelor of Technology</h4>
-          <h5>2018 - 2022</h5>
+          <h5 class="date-badge">2018 - 2022</h5>
           <p><em>BackStage Pass Institute of Gaming and Technology, Hyderabad, India</em></p>
-          <p>Pursued Computer Science with a specialization in Game Development, gaining hands-on experience through academic projects and collaborative game prototypes.</p>
+          <p>
+            Pursued Computer Science with a specialization in Game Development, gaining hands-on experience
+            through academic projects and collaborative game prototypes.
+          </p>
         </div>
 
-			 <div class="resume-item">
-            <h4>Pre University College</h4>
-            <h5>2016 - 2018</h5>
-            <p><em>National PU College, Karnataka, India</em></p>
-            <p>Completed 11th and 12th grade with Physics, Mathematics, Chemistry and Computer Science as major subjects.</p>
-          </div>
+        <div class="resume-item">
+          <h4>Pre University College</h4>
+          <h5 class="date-badge">2016 - 2018</h5>
+          <p><em>National PU College, Karnataka, India</em></p>
+          <p>
+            Completed 11th and 12th grade with Physics, Mathematics, Chemistry and Computer Science as
+            major subjects.
+          </p>
+        </div>
       </div>
 
       <!-- Professional Experience Column -->
@@ -336,13 +440,19 @@
 
         <div class="resume-item">
           <h4>Unity Game Developer</h4>
-          <h5>Dec 2021 – Jun 2025</h5>
+          <h5 class="date-badge">Dec 2021 – Jun 2025</h5>
           <p><em>Amgo Games (Day Dreamz Studio), Hyderabad, India</em></p>
-          <p>I worked as a Unity Game Developer, creating and publishing hyper-casual and casual mobile games for Android and iOS. My role focused on game programming, mobile optimization, and SDK/analytics integration, delivering polished experiences with smooth performance.</p>
+          <p>
+            Worked as a Unity Game Developer, creating and publishing hyper-casual and casual mobile games
+            for Android and iOS. Focused on gameplay programming, mobile optimization, and SDK/analytics
+            integration to deliver polished experiences with smooth performance.
+          </p>
         </div>
       </div>
 
     </div>
+    <!-- End Education + Experience -->
+
   </div>
 </section>
 <!-- End Resume Section -->
@@ -417,21 +527,28 @@
   <section id="portfolio" class="portfolio">
     <div class="container">
 
+          <!-- Home Button -->
+<div class="home-btn-wrap">
+  <a href="index.html" class="home-btn">
+    <i class="ri-close-line"></i>
+  </a>
+</div>
+    
       <div class="section-title">
         <p>Projects</p>
         <h2>My Works</h2>
       </div>
 
-      <div class="row">
-        <div class="col-lg-12 d-flex justify-content-center">
-          <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">Graduate Projects ( University of Utah )</li>
-            <li data-filter=".filter-card">Amgo Games ( Industry Work )</li>
-            <li data-filter=".filter-web">Undergraduate Project</li>
-          </ul>
-        </div>
-      </div>
+    <div class="row">
+  <div class="col-lg-12 d-flex justify-content-center">
+    <ul id="portfolio-flters" class="portfolio-filters">
+      <li data-filter="*" class="filter-active">ALL</li>
+      <li data-filter=".filter-app">GRADUATE PROJECTS (UNIVERSITY OF UTAH)</li>
+      <li data-filter=".filter-card">AMGO GAMES (INDUSTRY WORK)</li>
+      <li data-filter=".filter-web">UNDERGRADUATE PROJECTS</li>
+    </ul>
+  </div>
+</div>
 
       <div class="row portfolio-container">
 
@@ -464,6 +581,34 @@
           </div>
         </div>
 
+         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="projects/assets/dodgenrun.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Dodge And Run</h4>
+              <p>Undergraduate Project</p>
+              <div class="portfolio-links">
+                <a href="projects/UndergraduateProject/dodgenrun.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-plus"></i></a>
+                  <a href="https://drive.google.com/drive/folders/1YVuYd77iEenGP_W2cUu4CZ1_Fs9hLleZ"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="projects/assets/cancrush.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Can Crush</h4>
+              <p>Recycling - Puzzle Game</p>
+              <div class="portfolio-links">
+                <a href="https://play.google.com/store/apps/details?id=com.younickgames.recyclesort"><i class="bx bx-link"></i></a>
+                <a href="projects/AmgoGames/cancrush.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-card">
           <div class="portfolio-wrap">
@@ -686,19 +831,7 @@
           </div>
         </div>
  
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="projects/assets/dodgenrun.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Dodge And Run</h4>
-              <p>Undergraduate Project</p>
-              <div class="portfolio-links">
-                <a href="projects/UndergraduateProject/dodgenrun.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-plus"></i></a>
-                  <a href="https://drive.google.com/drive/folders/1YVuYd77iEenGP_W2cUu4CZ1_Fs9hLleZ"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
+
       </div>
   </section><!-- End Portfolio Section -->
 

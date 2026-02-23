@@ -49,6 +49,27 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.btn-pink {
+  background-color: #ffffff1b;
+  color: white;
+  border: none;
+}
+
+.btn-pink:hover {
+  background-color: #e60073;
+  color: white;
+}
+
+h1 .home-logo {
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: color 0.1s ease;
+}
+
+h1 .home-logo:hover {
+  color: #ff4da6 !important;
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -91,6 +112,615 @@ h1, h2, h3, h4, h5, h6 {
   color:#ce1d75;
   font-weight: 700;
 }
+
+/* CONTACT SECTION BEAUTIFIED */
+
+.contact-box {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 14px;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.contact-card i {
+  font-size: 38px;
+  color: #ff007f;
+  margin-bottom: 12px;
+  transition: all 0.3s ease;
+}
+
+.contact-card span {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* Hover Effects */
+.contact-card:hover {
+  background: rgba(255, 0, 127, 0.15);
+  transform: translateY(-6px);
+  border: 1px solid #ff007f;
+  box-shadow: 0 10px 30px rgba(255, 0, 127, 0.2);
+}
+
+.contact-card:hover i {
+  transform: scale(1.1);
+}
+/* CONTACT SECTION BEAUTIFIED END  */
+
+
+/* PREMIUM HOME BUTTON */
+
+.home-btn-wrap {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.home-btn {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: rgba(255,255,255,0.05);
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.08);
+  transition: all 0.3s ease;
+}
+
+.home-btn i {
+  font-size: 20px;
+  color: #ff007f;
+  transition: 0.3s ease;
+}
+
+/* Hover Effect */
+.home-btn:hover {
+  background: rgba(255, 0, 127, 0.15);
+  border: 1px solid #ff007f;
+  box-shadow: 0 8px 25px rgba(255, 0, 127, 0.25);
+  transform: translateY(-3px);
+}
+
+.home-btn:hover i {
+  transform: scale(1.1);
+}
+
+/* PREMIUM HOME BUTTON END */
+
+
+/* Resume Download Card */
+.resume-download-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.resume-download-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 20px;   /* smaller padding */
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 10px;  /* slightly smaller radius */
+  border: 1px solid rgba(255,255,255,0.08);
+  transition: all 0.3s ease;
+}
+
+.resume-download-card i {
+  font-size: 16px;   /* smaller icon */
+  color: #ff007f;
+}
+
+.resume-download-card span {
+  font-size: 14px;   /* smaller text */
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/* Hover */
+.resume-download-card:hover {
+  background: rgba(255, 0, 127, 0.15);
+  border: 1px solid #ff007f;
+  box-shadow: 0 6px 20px rgba(255, 0, 127, 0.2);
+  transform: translateY(-3px);
+}
+/* Resume Download Card End*/
+
+/* PREMIUM INTEREST CARDS */
+
+.interest-card {
+  background: rgba(255, 255, 255, 0.04);
+  padding: 25px 15px;
+  text-align: center;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.08);
+  transition: all 0.3s ease;
+}
+
+.interest-card i {
+  font-size: 34px;
+  color: #ff007f;
+  margin-bottom: 12px;
+  display: block;
+  transition: 0.3s ease;
+}
+
+.interest-card h3 {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* Hover Effect */
+.interest-card:hover {
+  background: rgba(255, 0, 127, 0.12);
+  transform: translateY(-6px);
+  border: 1px solid #ff007f;
+  box-shadow: 0 10px 30px rgba(255, 0, 127, 0.2);
+}
+
+.interest-card:hover i {
+  transform: scale(1.15);
+}
+
+/* PREMIUM INTEREST CARDS END */
+
+
+/* DATE BADGE STYLE */
+
+.date-badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.06);
+  border-left: 3px solid #ff007f;
+  padding: 6px 14px;
+  font-size: 14px;
+  border-radius: 4px;
+  color: #ffffff;
+  margin: 10px 0 15px 0;
+}
+
+/* DATE BADGE STYLE END */
+
+/* FILTER CONTAINER */
+.portfolio-filters {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* POPUP-LIKE FILTER BAR */
+.portfolio-filters{
+  list-style: none;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  padding: 10px 14px;
+  margin: 0 auto 25px auto;
+
+  background: rgba(0,0,0,0.45);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 14px;
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+}
+
+/* EACH PILL */
+.portfolio-filters {
+  list-style: none;
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0 0 25px 0;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+/* INDIVIDUAL BUTTON */
+.portfolio-filters li {
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.08);
+
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+
+  transition: all 0.3s ease;
+}
+
+/* HOVER */
+.portfolio-filters li:hover {
+  background: rgba(255,0,127,0.2);
+  border-color: #ff007f;
+  transform: translateY(-2px);
+}
+
+/* ACTIVE */
+.portfolio-filters li.filter-active {
+  background: #ff007f;
+  border-color: #ff007f;
+  box-shadow: 0 8px 20px rgba(255,0,127,0.3);
+}
+
+/* POPUP-LIKE FILTER BAR END */
+
+/* ===== Portfolio Grid Spacing ===== */
+.portfolio .portfolio-container {
+  row-gap: 28px;          /* vertical spacing */
+  column-gap: 0px;        /* bootstrap handles columns */
+}
+
+/* Each item padding so cards don't touch */
+.portfolio .portfolio-item {
+  padding: 12px;
+}
+
+/* Card wrap */
+.portfolio .portfolio-wrap {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.28);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+/* Fixed image area (prevents "merging") */
+.portfolio .portfolio-wrap img {
+  width: 100%;
+  height: 240px;           /* SAME height for all */
+  object-fit: cover;       /* crops nicely */
+  display: block;
+}
+
+/* Hover effect */
+.portfolio .portfolio-wrap:hover {
+  transform: translateY(-6px);
+  border-color: rgba(255, 0, 127, 0.55);
+  box-shadow: 0 18px 45px rgba(255, 0, 127, 0.12), 0 18px 45px rgba(0,0,0,0.35);
+}
+
+/* Overlay info */
+.portfolio .portfolio-info {
+  position: absolute;
+  inset: 0;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.85) 0%,
+    rgba(0,0,0,0.45) 40%,
+    rgba(0,0,0,0.05) 70%,
+    rgba(0,0,0,0) 100%
+  );
+
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.portfolio .portfolio-wrap:hover .portfolio-info {
+  opacity: 1;
+}
+
+.portfolio .portfolio-info h4 {
+  font-size: 18px;
+  margin: 0 0 6px 0;
+  font-weight: 700;
+}
+
+.portfolio .portfolio-info p {
+  margin: 0 0 12px 0;
+  font-size: 13px;
+  opacity: 0.85;
+}
+
+/* Links (plus + link icons) */
+.portfolio .portfolio-links a {
+  width: 42px;
+  height: 42px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 10px;
+  margin-right: 10px;
+
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.10);
+  color: #fff;
+
+  transition: all 0.2s ease;
+}
+
+.portfolio .portfolio-links a:hover {
+  background: #ff007f;
+  border-color: #ff007f;
+  transform: translateY(-2px);
+}
+
+/* Mobile: smaller image height */
+@media (max-width: 576px) {
+  .portfolio .portfolio-wrap img {
+    height: 210px;
+  }
+}
+
+/* ===== Portfolio Grid Spacing END===== */
+
+/* MAIN VISIBLE FRAME BEHIND PROJECTS */
+.portfolio-panel{
+  padding: 26px 22px;
+  border-radius: 26px;
+
+  /* makes background visible */
+  background:
+    radial-gradient(800px 300px at 10% 0%, rgba(255,0,127,0.12), transparent 60%),
+    radial-gradient(700px 260px at 90% 10%, rgba(140,0,255,0.10), transparent 55%),
+    rgba(0,0,0,0.35);
+
+  border: 1px solid rgba(255,255,255,0.10);
+  box-shadow:
+    0 18px 60px rgba(0,0,0,0.55),
+    0 0 0 1px rgba(255,0,127,0.12) inset;
+}
+
+/* spacing so it looks clean */
+.portfolio-container{ gap: 18px 18px; }
+
+/* CARD FRAME (subtle neon outline) */
+.portfolio .portfolio-item .portfolio-wrap{
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.10);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.55);
+  background: rgba(0,0,0,0.25); /* makes each tile feel framed */
+}
+
+/* Hover glow only */
+.portfolio .portfolio-item .portfolio-wrap:hover{
+  border-color: rgba(255,0,127,0.55);
+  box-shadow:
+    0 14px 36px rgba(0,0,0,0.65),
+    0 0 24px rgba(255,0,127,0.28);
+}
+
+/* keeps images consistent */
+.portfolio .portfolio-wrap img{
+  width: 100%;
+  height: 230px;          /* change if you want taller/shorter */
+  object-fit: cover;
+  display: block;
+}
+/* MAIN VISIBLE FRAME BEHIND PROJECTS END */
+
+/* Stop portfolio icons from turning green on hover */
+.portfolio .portfolio-links a:hover,
+.portfolio .portfolio-links a:hover i {
+  color: #ffffff !important;
+}
+
+/* === Visible Frame for Portfolio Details (like Projects page) === */
+.portfolio-details .container {
+  background:
+    radial-gradient(800px 300px at 10% 0%, rgba(255,0,127,0.12), transparent 60%),
+    radial-gradient(700px 260px at 90% 10%, rgba(140,0,255,0.10), transparent 55%),
+    rgba(0,0,0,0.35);
+
+  border: 1px solid rgba(255,255,255,0.10);
+  border-radius: 26px;
+
+  box-shadow:
+    0 18px 60px rgba(0,0,0,0.55),
+    0 0 0 1px rgba(255,0,127,0.12) inset;
+
+  padding: 40px;
+}
+
+/* ===== Remove arrows in Portfolio Details (Swiper + Glightbox) ===== */
+#portfolio-details .swiper-button-next,
+#portfolio-details .swiper-button-prev,
+#portfolio-details .swiper-button-next::after,
+#portfolio-details .swiper-button-prev::after {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+/* If that arrow is from GLightbox controls */
+.glightbox-container .gprev,
+.glightbox-container .gnext,
+.glightbox-container .gprev::after,
+.glightbox-container .gnext::after {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+/* ===== Fix GLightbox Close Button ===== */
+
+.glightbox-container .gclose {
+  width: 44px !important;
+  height: 44px !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  border-radius: 50% !important;
+
+  background: rgba(255,255,255,0.06) !important;
+  border: 1px solid rgba(255,255,255,0.10) !important;
+
+  color: #ff007f !important;
+  font-size: 22px !important;
+
+  top: 25px !important;
+  right: 30px !important;
+
+  transition: all 0.25s ease !important;
+}
+
+/* Hover Effect */
+.glightbox-container .gclose:hover {
+  background: rgba(255,0,127,0.18) !important;
+  border-color: rgba(255,0,127,0.55) !important;
+  box-shadow: 0 10px 28px rgba(255,0,127,0.25) !important;
+  transform: translateY(-2px);
+}
+
+/* Make slider a positioning context */
+.portfolio-details .portfolio-details-slider{
+  position: relative;
+  padding-bottom: 40px;   /* <-- creates space for dots BELOW the slide */
+}
+
+/* Keep the slide area clipped cleanly */
+.portfolio-details .portfolio-details-slider .swiper-wrapper{
+  align-items: center;
+}
+
+/* Dots: always visible + on top */
+.portfolio-details .portfolio-details-slider .swiper-pagination{
+  position: absolute !important;
+  left: 0;
+  right: 0;
+  bottom: 10px !important;   /* <-- moves dots downward */
+  z-index: 9999 !important;
+  pointer-events: auto;
+}
+
+/* Make sure slide media doesn't create weird stacking issues */
+.portfolio-details .portfolio-details-slider .swiper-slide{
+  position: relative;
+  z-index: 1;
+}
+
+/* Optional safety: ensure media stays below dots */
+.portfolio-details .portfolio-details-slider .swiper-slide img,
+.portfolio-details .portfolio-details-slider .swiper-slide iframe{
+  position: relative;
+  z-index: 1;
+}
+
+/* Keep slider content inside the rounded card (no overflow outside) */
+.portfolio-details .container {
+  overflow: hidden;
+  border-radius: 24px; /* match your card rounding */
+}
+
+/* Make slides center and never push outside */
+.portfolio-details .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ensure images never exceed the left column width */
+.portfolio-details .swiper-slide img {
+  max-width: 100% !important;
+  height: auto !important;
+  object-fit: contain;
+}
+
+/* Notion Button Styling */
+.notion-link-wrapper {
+  margin-top: 25px;
+}
+
+.notion-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+
+  background: linear-gradient(135deg, rgba(255,0,127,0.15), rgba(120,0,255,0.15));
+  border: 1px solid rgba(255,0,127,0.4);
+  border-radius: 30px;
+
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+
+  transition: all 0.3s ease;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.notion-btn i {
+  font-size: 18px;
+  color: #ff007f;
+}
+
+.notion-btn:hover {
+  background: linear-gradient(135deg, rgba(255,0,127,0.3), rgba(120,0,255,0.3));
+  border-color: #ff007f;
+  box-shadow: 0 0 18px rgba(255,0,127,0.4);
+  transform: translateY(-2px);
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #header img {
   padding: 0;
